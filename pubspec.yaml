@@ -1,0 +1,38 @@
+name: high_five
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  assets_audio_player: ^2.0.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.8.0"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/icon.jpg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/icon.jpg
+    - images/cycle images/
+    - images/smack images/
+    - audio/slaps/
+    - audio/voiceover/
+    - audio/background.m4a
+
+
